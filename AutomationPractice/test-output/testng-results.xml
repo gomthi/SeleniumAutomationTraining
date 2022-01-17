@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="1" total="3" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="58899" started-at="2022-01-16T15:13:26Z" finished-at="2022-01-16T15:14:25Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="58899" started-at="2022-01-16T15:13:26Z" finished-at="2022-01-16T15:14:25Z">
+      <class name="object_repository.AddToCartPage">
+        <test-method status="PASS" signature="browserLaunch()[pri:0, instance:object_repository.AddToCartPage@5b275dab]" name="browserLaunch" is-config="true" duration-ms="7661" started-at="2022-01-16T15:13:26Z" finished-at="2022-01-16T15:13:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserLaunch -->
+        <test-method status="PASS" signature="dataDriven()[pri:0, instance:object_repository.AddToCartPage@5b275dab]" name="dataDriven" is-config="true" duration-ms="221" started-at="2022-01-16T15:13:34Z" finished-at="2022-01-16T15:13:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- dataDriven -->
+        <test-method status="PASS" signature="login()[pri:0, instance:object_repository.AddToCartPage@5b275dab]" name="login" duration-ms="2533" started-at="2022-01-16T15:13:34Z" finished-at="2022-01-16T15:13:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method status="PASS" signature="dataDriven()[pri:0, instance:object_repository.AddToCartPage@5b275dab]" name="dataDriven" is-config="true" duration-ms="100" started-at="2022-01-16T15:13:37Z" finished-at="2022-01-16T15:13:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- dataDriven -->
+        <test-method status="PASS" signature="AddToCartPage()[pri:0, instance:object_repository.AddToCartPage@5b275dab]" name="AddToCartPage" duration-ms="48364" started-at="2022-01-16T15:13:37Z" depends-on-methods="object_repository.LoginPage.login" finished-at="2022-01-16T15:14:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AddToCartPage -->
+      </class> <!-- object_repository.AddToCartPage -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
