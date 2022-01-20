@@ -7,6 +7,7 @@
         <methods>
           <include name="AddToCartPage"/>
           <include name="browserLaunch"/>
+          <include name="createAccount"/>
           <include name="login"/>
           <include name="dataDriven"/>
         </methods>
